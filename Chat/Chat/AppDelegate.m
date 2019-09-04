@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "TestModel.h"
 
 #import "ViewController.h"
 
@@ -26,60 +25,6 @@
     [self.window makeKeyAndVisible];
     
     
-    NSMutableArray * array =[[NSMutableArray alloc] initWithObjects:@{@"id":@"1",@"num":@"1"},@{@"id":@"2",@"num":@"2"},@{@"id":@"1",@"num":@"3"},@{@"id":@"3",@"num":@"1"},@{@"id":@"3",@"num":@"1"},@{@"id":@"4",@"num":@"1"},@{@"id":@"5",@"num":@"1"},@{@"id":@"2",@"num":@"1"},@{@"id":@"2",@"num":@"1"},@{@"id":@"2",@"num":@"1"},@{@"id":@"2",@"num":@"1"},@{@"id":@"2",@"num":@"1"},@{@"id":@"2",@"num":@"1"},@{@"id":@"2",@"num":@"1"},@{@"id":@"6",@"num":@"1"}, nil];
-    
-    
-    NSMutableArray * dataArray =[[NSMutableArray alloc] init];
-    
-    for(NSDictionary * dic in array){
-        
-        TestModel * model =[[TestModel alloc] init];
-        model.dishId=dic[@"id"];
-        model.num=[dic[@"num"] integerValue];
-        [dataArray addObject:model];
-    }
-    
-    NSLog(@"start");
-    
-    NSMutableArray * tempArray =[[NSMutableArray alloc] init];
-    
-    for(NSInteger i=0;i<dataArray.count;i++){
-        
-        TestModel * i_model = dataArray[i];
-        
-        [tempArray addObject:i_model];
-        
-        for(NSInteger j=i+1;j<dataArray.count;j++){
-            
-            TestModel * j_model = dataArray[j];
-
-            if([i_model.dishId isEqualToString:j_model.dishId]){
-                
-                i_model.num+=j_model.num;
-                
-                [tempArray replaceObjectAtIndex:i withObject:i_model];
-                
-                [dataArray removeObject:j_model];
-                
-                j-=1;
-            }
-            
-        }
-        
-    }
-    
-    
-    NSLog(@"-----%zi",tempArray.count);
-    
-    
-    for(TestModel * model in tempArray){
-        
-        
-        NSLog(@" id=%@ num=%zi",model.dishId,model.num);
-    }
-    
-    
-    NSLog(@"end");
 
     
     ViewController * kddChatTollbar =[[ViewController alloc] init];

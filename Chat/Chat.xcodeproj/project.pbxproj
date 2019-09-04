@@ -38,7 +38,6 @@
 		0A67B90020CA6D3400EBB0B4 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A67B8EE20CA6D3400EBB0B4 /* UIImageView+HighlightedWebCache.m */; };
 		0A67B90120CA6D3400EBB0B4 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A67B8F020CA6D3400EBB0B4 /* UIImageView+WebCache.m */; };
 		0A67B90220CA6D3400EBB0B4 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A67B8F220CA6D3400EBB0B4 /* UIView+WebCacheOperation.m */; };
-		0A83188121604F68009E7AE8 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A83188021604F68009E7AE8 /* TestModel.m */; };
 		0A966FAA20CE1A6D00CFDB82 /* ImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A966FA920CE1A6D00CFDB82 /* ImageMessageCell.m */; };
 		0A966FAD20CF6AE500CFDB82 /* ChatRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A966FAC20CF6AE500CFDB82 /* ChatRecordView.m */; };
 /* End PBXBuildFile section */
@@ -107,8 +106,6 @@
 		0A67B8F020CA6D3400EBB0B4 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		0A67B8F120CA6D3400EBB0B4 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		0A67B8F220CA6D3400EBB0B4 /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
-		0A83187F21604F68009E7AE8 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
-		0A83188021604F68009E7AE8 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		0A966FA820CE1A6D00CFDB82 /* ImageMessageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageMessageCell.h; sourceTree = "<group>"; };
 		0A966FA920CE1A6D00CFDB82 /* ImageMessageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMessageCell.m; sourceTree = "<group>"; };
 		0A966FAB20CF6AE500CFDB82 /* ChatRecordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChatRecordView.h; sourceTree = "<group>"; };
@@ -151,8 +148,6 @@
 				0A67B89C20C905D100EBB0B4 /* Controller */,
 				0A67B88620C8C57C00EBB0B4 /* AppDelegate.h */,
 				0A67B88720C8C57C00EBB0B4 /* AppDelegate.m */,
-				0A83187F21604F68009E7AE8 /* TestModel.h */,
-				0A83188021604F68009E7AE8 /* TestModel.m */,
 				0A67B88920C8C57C00EBB0B4 /* ViewController.h */,
 				0A67B88A20C8C57C00EBB0B4 /* ViewController.m */,
 				0A67B8D020CA6D3400EBB0B4 /* Third */,
@@ -394,7 +389,6 @@
 				0A67B8F520CA6D3400EBB0B4 /* SDImageCache.m in Sources */,
 				0A67B8F620CA6D3400EBB0B4 /* SDWebImageCompat.m in Sources */,
 				0A67B90220CA6D3400EBB0B4 /* UIView+WebCacheOperation.m in Sources */,
-				0A83188121604F68009E7AE8 /* TestModel.m in Sources */,
 				0A67B88820C8C57C00EBB0B4 /* AppDelegate.m in Sources */,
 				0A67B8BE20CA2CE800EBB0B4 /* ChatFace.m in Sources */,
 				0A67B8F920CA6D3400EBB0B4 /* SDWebImageDownloaderOperation.m in Sources */,
